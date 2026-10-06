@@ -1,0 +1,2 @@
+import{s as o,a as m}from"./assets/messages-hXmdGDOl.js";/* empty css                    */import"./assets/vendor-BbbuE1sJ.js";o("Snackbar initialized");const t={form:document.querySelector(".form")},i=a=>{a.preventDefault();const s={delay:t.form.elements.delay.value,state:t.form.elements.state.value};new Promise((e,r)=>{setTimeout(()=>{s.state==="fulfilled"?e(s.delay):r(s.delay)},s.delay)}).then(e=>{o(`Fulfilled promise in ${e}ms`)}).catch(e=>{m(`Rejected promise in ${e}ms`)})};t.form.addEventListener("submit",i);
+//# sourceMappingURL=2-snackbar.js.map
