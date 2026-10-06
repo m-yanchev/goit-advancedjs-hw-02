@@ -1,0 +1,90 @@
+.timer-controls {
+  display: flex;
+  gap: 8px;
+  width: 363px;
+}
+
+#datetime-picker {
+  width: 280px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+#datetime-picker:hover {
+  border-color: #000;
+}
+
+#datetime-picker:active {
+  border-color: #4e75ff;
+}
+
+#datetime-picker:disabled {
+  border-color: #808080;
+  background-color: #fafafa;
+  color: #808080;
+}
+
+#datetime-picker:focus {
+  outline: none;
+}
+
+button[data-start] {
+  border-radius: 8px;
+  padding: 9px 16px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  background: #4e75ff;
+}
+
+button[data-start]:hover {
+  background: #6c8cff;
+}
+
+button[data-start]:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  width: 346px;
+
+  margin-top: 32px;
+}
+
+.timer .field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer .value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.timer .label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+  text-transform: uppercase;
+  text-align: center;
+}

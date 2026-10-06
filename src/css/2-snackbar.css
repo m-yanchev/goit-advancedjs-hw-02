@@ -1,0 +1,115 @@
+.form {
+  width: 360px;
+}
+
+.form input,
+.form label {
+  display: block;
+}
+
+.form > label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  margin-bottom: 24px;
+}
+
+.form > label > input {
+  margin-top: 8px;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+
+  padding: 8px 16px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form > label > input:hover {
+  border-color: #000;
+}
+
+.form > label > input:focus {
+  border-color: #4e75ff;
+}
+
+.form fieldset {
+  display: flex;
+  gap: 28px;
+  padding: 0 28px 8px;
+  margin-bottom: 24px;
+  width: 360px;
+
+  border: 1px solid #808080;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form fieldset:hover,
+.form fieldset:active {
+  border-color: #000;
+}
+
+.form fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 104px;
+  height: 32px;
+  padding: 6px;
+  margin-left: 20px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form fieldset input {
+  margin: 0;
+  height: 100%;
+
+  width: 20px;
+  height: 20px;
+
+  border: 1px solid #757575;
+}
+
+.form fieldset input:hover {
+  border-color: #000;
+}
+.form fieldset input:focus {
+  border-color: #4e75ff;
+}
+
+.form button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+
+  background: #4e75ff;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.form button:hover {
+  background: #6c8cff;
+}
