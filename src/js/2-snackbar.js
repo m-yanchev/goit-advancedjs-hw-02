@@ -1,7 +1,5 @@
 import { showSuccessMessage, showErrorMessage } from "./messages";
 
-showSuccessMessage("Snackbar initialized");
-
 const refs = {
   form: document.querySelector('.form'),
 };
